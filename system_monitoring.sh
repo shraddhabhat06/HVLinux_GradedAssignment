@@ -6,13 +6,10 @@ BRANCH="main"
 
 cd $REPO_DIR || exit
 
-# Mark repo as safe to prevent "dubious ownership" errors
-git config --global --add safe.directory $REPO_DIR
+# Ensure Git uses HTTPS
+git remote set-url origin https://github.com/shraddhabhat06/HVLinux_GradedAssignment.git
 
-# Ensure Git uses SSH (if needed)
-git remote set-url origin git@github.com:shraddhabhat06/HVLinux_GradedAssignment.git
-
-# Ensure the latest changes are pulled
+# Pull latest changes
 git pull --rebase origin $BRANCH
 
 # Generate system logs
