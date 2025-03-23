@@ -1,6 +1,4 @@
 #!/bin/bash
-
-
 REPO_DIR="/home/u2532985/Assignment/Assignment_3"
 LOG_FILE="$REPO_DIR/system_logs.log"
 BRANCH="main"  
@@ -8,10 +6,15 @@ BRANCH="main"
 cd $REPO_DIR || exit
 
 
-git checkout $BRANCH
-git pull origin $BRANCH
+git stash push -m "Auto-stash by system_monitoring.sh"
 
+# Switch to the desired branch
+git checkout $BRANCH || git checkout -b $BRANCH origin/$BRANCH
 
+# Pull the latest changes and rebase
+git pull --rebase origin $BRANCH
+
+# Generate system logs
 echo "=== System Metrics ===" > $LOG_FILE
 date >> $LOG_FILE
 
@@ -39,4 +42,8 @@ echo -e "\n==================================\n" >> $LOG_FILE
 # Commit and push changes to GitHub
 git add $LOG_FILE
 git commit -m "Auto-update logs: $(date)"
+git pull --rebase origin $BRANCH  # Ensure local branch is up-to-date
 git push origin $BRANCH
+
+# Apply stashed changes back (if any)
+git stash pop
