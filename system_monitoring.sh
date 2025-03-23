@@ -4,6 +4,8 @@ REPO_DIR="/home/u2532985/Assignment/Assignment_3"
 LOG_FILE="$REPO_DIR/system_logs.log"
 BRANCH="main"
 
+git config --global user.name "shraddhabhat06"
+git config --global user.email "shraddhabhat06@gmail.com"
 cd $REPO_DIR || exit
 
 # Ensure Git uses HTTPS
