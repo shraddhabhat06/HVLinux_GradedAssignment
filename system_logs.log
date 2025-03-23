@@ -1,0 +1,40 @@
+=== System Metrics ===
+Sun Mar 23 02:32:59 PM IST 2025
+
+CPU Utilization:
+%Cpu(s):  7.1 us,  4.5 sy,  0.0 ni, 87.8 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           15749        5361        5597         633        4790        9421
+Swap:           2047           0        2047
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.6G  2.2M  1.6G   1% /run
+/dev/nvme0n1p2  234G  162G   61G  73% /
+tmpfs           7.7G  150M  7.6G   2% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+efivarfs        374K  165K  205K  45% /sys/firmware/efi/efivars
+tmpfs           7.7G     0  7.7G   0% /run/shm
+/dev/nvme0n1p1  511M  6.1M  505M   2% /boot/efi
+tmpfs           1.6G  160K  1.6G   1% /run/user/1000
+
+Top 5 Processes by CPU Usage:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+u2532985    2638  8.2  1.9 5998016 313008 ?      Ssl  12:05  12:07 /usr/bin/gnome-shell
+u2532985    5526  5.9  2.7 1213901120 440648 ?   Sl   12:09   8:29 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=4147 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=47 --time-ticks-at-unix-epoch=-1742711646882715 --launch-time-ticks=334687128 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11047079519603688574,8876202270535423928,262144 --disable-features=EyeDropper --variations-seed-version=20250321-130127.532000
+u2532985   11993  5.1  2.4 1459643308 396584 ?   Sl   12:15   7:02 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=4450 --enable-crash-reporter=5320e962-6ed3-4661-a0b6-09e38fe0647c, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=43 --time-ticks-at-unix-epoch=-1742711646882715 --launch-time-ticks=700304847 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1214320687200497897,7038983953005147057,262144 --disable-features=EyeDropper --variations-seed-version=main@533f1f2dd75e8be37bc43f03ace8b2228d90641e
+u2532985   24173  4.6  1.9 1217835400 320348 ?   Sl   13:02   4:10 /usr/share/code/code --type=renderer --crashpad-handler-pid=24117 --enable-crash-reporter=77140d63-9a66-4f97-bc89-7f194a876544,no_channel --user-data-dir=/home/u2532985/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --disable-blink-features=FontMatchingCTMigration, --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1742711646882715 --launch-time-ticks=3529534453 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10592261227871235494,15212547845544500134,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version --vscode-window-config=vscode:6b00c00e-8c74-4d25-a354-c07a8035712a
+u2532985    4488  4.1  1.4 34397736 227096 ?     Sl   12:06   6:01 /opt/brave.com/brave/brave --type=gpu-process --crashpad-handler-pid=4450 --enable-crash-reporter=5320e962-6ed3-4661-a0b6-09e38fe0647c, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,1214320687200497897,7038983953005147057,262144 --disable-features=EyeDropper --variations-seed-version=main@533f1f2dd75e8be37bc43f03ace8b2228d90641e
+
+Top 5 Processes by Memory Usage:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+u2532985    5526  5.9  2.7 1213901120 440648 ?   Sl   12:09   8:29 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=4147 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=47 --time-ticks-at-unix-epoch=-1742711646882715 --launch-time-ticks=334687128 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11047079519603688574,8876202270535423928,262144 --disable-features=EyeDropper --variations-seed-version=20250321-130127.532000
+u2532985   24393  1.4  2.5 1217754852 415440 ?   Sl   13:03   1:15 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=24117 --enable-crash-reporter=77140d63-9a66-4f97-bc89-7f194a876544,no_channel --user-data-dir=/home/u2532985/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10592261227871235494,15212547845544500134,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+u2532985    4448  3.6  2.4 34317236 399348 ?     SLl  12:06   5:19 /opt/brave.com/brave/brave
+u2532985   11993  5.1  2.4 1459643308 396584 ?   Sl   12:15   7:02 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=4450 --enable-crash-reporter=5320e962-6ed3-4661-a0b6-09e38fe0647c, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=43 --time-ticks-at-unix-epoch=-1742711646882715 --launch-time-ticks=700304847 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1214320687200497897,7038983953005147057,262144 --disable-features=EyeDropper --variations-seed-version=main@533f1f2dd75e8be37bc43f03ace8b2228d90641e
+root         560  2.9  2.4 3623780 390700 ?      Sl   12:04   4:24 falcon-sensor-bpf
+
+==================================
+
