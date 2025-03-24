@@ -1,40 +1,40 @@
 === System Metrics ===
-Monday 24 March 2025 04:00:01 PM IST
+Monday 24 March 2025 04:15:01 PM IST
 
 CPU Utilization:
-%Cpu(s):  5.8 us,  1.4 sy,  0.0 ni, 92.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+%Cpu(s):  3.2 us,  6.5 sy,  0.0 ni, 90.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
 
 Memory Usage:
                total        used        free      shared  buff/cache   available
-Mem:           15749        7595         421         890        7732        6930
+Mem:           15749        7821         333         814        7593        6780
 Swap:           2047           0        2047
 
 Disk Usage:
 Filesystem      Size  Used Avail Use% Mounted on
 tmpfs           1.6G  2.3M  1.6G   1% /run
 /dev/nvme0n1p2  234G  162G   60G  74% /
-tmpfs           7.7G  177M  7.6G   3% /dev/shm
+tmpfs           7.7G  167M  7.6G   3% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 efivarfs        374K  165K  205K  45% /sys/firmware/efi/efivars
 tmpfs           7.7G     0  7.7G   0% /run/shm
 /dev/nvme0n1p1  511M  6.1M  505M   2% /boot/efi
-tmpfs           1.6G  156K  1.6G   1% /run/user/1000
+tmpfs           1.6G  152K  1.6G   1% /run/user/1000
 
 Top 5 Processes by CPU Usage:
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
-u2532985  471222 29.8  3.3 1213908368 544676 ?   Sl   15:38   6:25 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=4147 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=680 --time-ticks-at-unix-epoch=-1742711646882715 --launch-time-ticks=74079181869 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11047079519603688574,8876202270535423928,262144 --disable-features=EyeDropper --variations-seed-version=20250321-130127.532000
-u2532985  476202  3.4  1.8 1212162456 297272 ?   Sl   15:52   0:16 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=4147 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=693 --time-ticks-at-unix-epoch=-1742711646882715 --launch-time-ticks=74895385903 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11047079519603688574,8876202270535423928,262144 --disable-features=EyeDropper --variations-seed-version=20250321-130127.532000
-u2532985    2638  3.0  2.0 6042280 329004 ?      Ssl  Mar23  51:29 /usr/bin/gnome-shell
-u2532985  435970  3.0  1.9 1215925812 311208 ?   Sl   14:03   3:34 /usr/share/code/code --type=renderer --crashpad-handler-pid=435913 --enable-crash-reporter=77140d63-9a66-4f97-bc89-7f194a876544,no_channel --user-data-dir=/home/u2532985/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --disable-blink-features=FontMatchingCTMigration, --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1742736833338626 --launch-time-ticks=68401474182 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,14576901983374667507,14567248967521103095,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version --vscode-window-config=vscode:a969c8f0-16f6-4f8a-a1fc-304133db4848
-u2532985  391830  2.0  1.3 1212167460 214708 ?   Sl   11:58   4:56 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=4147 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=548 --time-ticks-at-unix-epoch=-1742711646882715 --launch-time-ticks=60861510882 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11047079519603688574,8876202270535423928,262144 --disable-features=EyeDropper --variations-seed-version=20250321-130127.532000
+u2532985  471222 24.1  2.7 1213888268 443404 ?   Sl   15:38   8:47 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=4147 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=680 --time-ticks-at-unix-epoch=-1742711646882715 --launch-time-ticks=74079181869 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11047079519603688574,8876202270535423928,262144 --disable-features=EyeDropper --variations-seed-version=20250321-130127.532000
+u2532985    2638  3.0  2.0 6042416 329004 ?      Ssl  Mar23  52:00 /usr/bin/gnome-shell
+u2532985  435970  2.9  2.2 1215927988 364888 ?   Sl   14:03   3:55 /usr/share/code/code --type=renderer --crashpad-handler-pid=435913 --enable-crash-reporter=77140d63-9a66-4f97-bc89-7f194a876544,no_channel --user-data-dir=/home/u2532985/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --disable-blink-features=FontMatchingCTMigration, --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1742736833338626 --launch-time-ticks=68401474182 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,14576901983374667507,14567248967521103095,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version --vscode-window-config=vscode:a969c8f0-16f6-4f8a-a1fc-304133db4848
+u2532985  391830  2.1  2.5 1212185196 413924 ?   Sl   11:58   5:29 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=4147 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=548 --time-ticks-at-unix-epoch=-1742711646882715 --launch-time-ticks=60861510882 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11047079519603688574,8876202270535423928,262144 --disable-features=EyeDropper --variations-seed-version=20250321-130127.532000
+u2532985    2436  1.7  0.1 3104324 30992 ?       S<sl Mar23  30:10 /usr/bin/pulseaudio --daemonize=no --log-target=journal
 
 Top 5 Processes by Memory Usage:
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
-u2532985  471222 29.8  3.3 1213908368 544676 ?   Sl   15:38   6:25 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=4147 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=680 --time-ticks-at-unix-epoch=-1742711646882715 --launch-time-ticks=74079181869 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11047079519603688574,8876202270535423928,262144 --disable-features=EyeDropper --variations-seed-version=20250321-130127.532000
-u2532985  436002  1.3  3.1 1219666244 512548 ?   Sl   14:03   1:35 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=435913 --enable-crash-reporter=77140d63-9a66-4f97-bc89-7f194a876544,no_channel --user-data-dir=/home/u2532985/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,14576901983374667507,14567248967521103095,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
-u2532985  436301  0.4  2.8 1215815456 452084 ?   Sl   14:03   0:34 /usr/share/code/code /home/u2532985/.vscode/extensions/ms-python.vscode-pylance-2025.3.2/dist/server.bundle.js --cancellationReceive=file:51d9a07c5acb4cd7593a39be5620a18f40e44e4fe1 --node-ipc --clientProcessId=436002
-u2532985    4132  1.2  2.7 34601948 446612 ?     SLl  Mar23  21:43 /opt/google/chrome/chrome
-u2532985    4448  1.5  2.7 34311460 443780 ?     SLl  Mar23  25:52 /opt/brave.com/brave/brave
+u2532985  436002  1.3  3.1 1219666244 505444 ?   Sl   14:03   1:46 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=435913 --enable-crash-reporter=77140d63-9a66-4f97-bc89-7f194a876544,no_channel --user-data-dir=/home/u2532985/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,14576901983374667507,14567248967521103095,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+u2532985    4448  1.5  2.7 34311460 443860 ?     SLl  Mar23  25:57 /opt/brave.com/brave/brave
+u2532985  471222 24.1  2.7 1213888268 443404 ?   Sl   15:38   8:47 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=4147 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=680 --time-ticks-at-unix-epoch=-1742711646882715 --launch-time-ticks=74079181869 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11047079519603688574,8876202270535423928,262144 --disable-features=EyeDropper --variations-seed-version=20250321-130127.532000
+u2532985    4132  1.3  2.7 34606176 440772 ?     SLl  Mar23  22:04 /opt/google/chrome/chrome
+u2532985  436301  0.4  2.7 1215815456 440716 ?   Sl   14:03   0:37 /usr/share/code/code /home/u2532985/.vscode/extensions/ms-python.vscode-pylance-2025.3.2/dist/server.bundle.js --cancellationReceive=file:51d9a07c5acb4cd7593a39be5620a18f40e44e4fe1 --node-ipc --clientProcessId=436002
 
 ==================================
 
