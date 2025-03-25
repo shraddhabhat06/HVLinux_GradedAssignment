@@ -1,19 +1,19 @@
 === System Metrics ===
-Tuesday 25 March 2025 08:00:01 AM IST
+Tuesday 25 March 2025 08:15:01 AM IST
 
 CPU Utilization:
-%Cpu(s):  7.5 us,  2.7 sy,  0.0 ni, 89.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+%Cpu(s):  2.6 us,  3.8 sy,  0.0 ni, 93.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
 
 Memory Usage:
                total        used        free      shared  buff/cache   available
-Mem:           15749        8805         512         930        6431        5681
+Mem:           15749        9157         333        1076        6258        5182
 Swap:           2047           6        2041
 
 Disk Usage:
 Filesystem      Size  Used Avail Use% Mounted on
 tmpfs           1.6G  2.3M  1.6G   1% /run
 /dev/nvme0n1p2  234G  162G   60G  73% /
-tmpfs           7.7G  182M  7.6G   3% /dev/shm
+tmpfs           7.7G  250M  7.5G   4% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 efivarfs        374K  165K  205K  45% /sys/firmware/efi/efivars
 tmpfs           7.7G     0  7.7G   0% /run/shm
@@ -22,19 +22,19 @@ tmpfs           1.6G  164K  1.6G   1% /run/user/1000
 
 Top 5 Processes by CPU Usage:
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
-u2532985    2638  2.4  2.2 6100660 364564 ?      Ssl  Mar23  65:38 /usr/bin/gnome-shell
-u2532985  795806  1.8  1.3 787012 216904 ?       Sl   01:39   7:04 /usr/bin/gedit --gapplication-service
-root         560  1.6  2.4 3754852 398124 ?      Sl   Mar23  43:04 falcon-sensor-bpf
-u2532985  471222  1.6  2.5 1213884104 407208 ?   Sl   Mar24  15:58 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=4147 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=680 --time-ticks-at-unix-epoch=-1742711646882715 --launch-time-ticks=74079181869 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11047079519603688574,8876202270535423928,262144 --disable-features=EyeDropper --variations-seed-version=20250321-130127.532000
-u2532985    4448  1.3  2.7 34315964 443876 ?     SLl  Mar23  35:54 /opt/brave.com/brave/brave
+u2532985 1182570  5.8  2.2 1219020876 357296 ?   Sl   08:10   0:14 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=4147 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1103 --time-ticks-at-unix-epoch=-1742711646882715 --launch-time-ticks=127728421995 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11047079519603688574,8876202270535423928,262144 --disable-features=EyeDropper --variations-seed-version=20250321-130127.532000
+u2532985    2638  2.5  2.2 6100592 364916 ?      Ssl  Mar23  66:50 /usr/bin/gnome-shell
+u2532985 1182472  2.5  1.9 1215580068 317228 ?   Sl   08:10   0:06 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=4147 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1100 --time-ticks-at-unix-epoch=-1742711646882715 --launch-time-ticks=127724995505 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11047079519603688574,8876202270535423928,262144 --disable-features=EyeDropper --variations-seed-version=20250321-130127.532000
+u2532985  795806  2.0  1.3 791436 221256 ?       Sl   01:39   8:09 /usr/bin/gedit --gapplication-service
+root         560  1.6  2.4 3754852 398124 ?      Sl   Mar23  43:27 falcon-sensor-bpf
 
 Top 5 Processes by Memory Usage:
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
-u2532985  436002  0.9  3.2 1219666244 528880 ?   Sl   Mar24  10:26 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=435913 --enable-crash-reporter=77140d63-9a66-4f97-bc89-7f194a876544,no_channel --user-data-dir=/home/u2532985/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,14576901983374667507,14567248967521103095,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
-u2532985  811725  0.9  3.1 1219666224 506384 ?   Sl   02:01   3:20 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=435913 --enable-crash-reporter=77140d63-9a66-4f97-bc89-7f194a876544,no_channel --user-data-dir=/home/u2532985/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,14576901983374667507,14567248967521103095,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
-u2532985  503083  0.8  2.9 1219667280 479300 ?   Sl   Mar24   7:42 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=435913 --enable-crash-reporter=77140d63-9a66-4f97-bc89-7f194a876544,no_channel --user-data-dir=/home/u2532985/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,14576901983374667507,14567248967521103095,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+u2532985  436002  0.9  3.2 1219666244 531152 ?   Sl   Mar24  10:37 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=435913 --enable-crash-reporter=77140d63-9a66-4f97-bc89-7f194a876544,no_channel --user-data-dir=/home/u2532985/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,14576901983374667507,14567248967521103095,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+u2532985  811725  0.9  3.1 1219666224 506780 ?   Sl   02:01   3:30 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=435913 --enable-crash-reporter=77140d63-9a66-4f97-bc89-7f194a876544,no_channel --user-data-dir=/home/u2532985/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,14576901983374667507,14567248967521103095,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+u2532985  503083  0.8  2.9 1219667280 480792 ?   Sl   Mar24   7:52 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=435913 --enable-crash-reporter=77140d63-9a66-4f97-bc89-7f194a876544,no_channel --user-data-dir=/home/u2532985/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,14576901983374667507,14567248967521103095,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
 u2532985  436301  0.0  2.7 1215815456 449940 ?   Sl   Mar24   0:42 /usr/share/code/code /home/u2532985/.vscode/extensions/ms-python.vscode-pylance-2025.3.2/dist/server.bundle.js --cancellationReceive=file:51d9a07c5acb4cd7593a39be5620a18f40e44e4fe1 --node-ipc --clientProcessId=436002
-u2532985    4448  1.3  2.7 34315964 443876 ?     SLl  Mar23  35:54 /opt/brave.com/brave/brave
+u2532985    4448  1.3  2.7 34315964 444268 ?     SLl  Mar23  36:00 /opt/brave.com/brave/brave
 
 ==================================
 
