@@ -1,19 +1,19 @@
 === System Metrics ===
-Wednesday 26 March 2025 03:30:01 PM IST
+Wednesday 26 March 2025 03:45:01 PM IST
 
 CPU Utilization:
-%Cpu(s):  6.5 us,  4.3 sy,  0.0 ni, 88.4 id,  0.7 wa,  0.0 hi,  0.0 si,  0.0 st
+%Cpu(s):  6.6 us,  5.1 sy,  0.0 ni, 88.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
 
 Memory Usage:
                total        used        free      shared  buff/cache   available
-Mem:           15749        8977         582        1174        6189        5264
-Swap:           2047         746        1301
+Mem:           15749        9164         389        1180        6194        5071
+Swap:           2047         751        1296
 
 Disk Usage:
 Filesystem      Size  Used Avail Use% Mounted on
 tmpfs           1.6G  2.4M  1.6G   1% /run
 /dev/nvme0n1p2  234G  162G   60G  74% /
-tmpfs           7.7G  260M  7.5G   4% /dev/shm
+tmpfs           7.7G  268M  7.5G   4% /dev/shm
 tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 efivarfs        374K  165K  205K  45% /sys/firmware/efi/efivars
 tmpfs           7.7G     0  7.7G   0% /run/shm
@@ -22,19 +22,19 @@ tmpfs           1.6G  176K  1.6G   1% /run/user/1000
 
 Top 5 Processes by CPU Usage:
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
-u2532985 2144742 59.2  6.1 1267136892 983904 ?   Sl   14:33  33:16 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=1294155 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=805 --time-ticks-at-unix-epoch=-1742742718394684 --launch-time-ticks=200513618194 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15156394743316873156,8655982237683995863,262144 --disable-features=EyeDropper --variations-seed-version=20250324-050123.534000
-u2532985 1294192  5.2  1.6 34735416 269364 ?     Sl   Mar25  92:50 /opt/google/chrome/chrome --type=gpu-process --string-annotations --crashpad-handler-pid=1294155 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,15156394743316873156,8655982237683995863,262144 --disable-features=EyeDropper --variations-seed-version=20250324-050123.534000
-u2532985 1938776  4.3  7.0 1219132884 1130176 ?  Sl   09:32  15:33 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=1294155 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=611 --time-ticks-at-unix-epoch=-1742742718394684 --launch-time-ticks=182440517198 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15156394743316873156,8655982237683995863,262144 --disable-features=EyeDropper --variations-seed-version=20250324-050123.534000
-u2532985    2638  2.6  1.9 6144472 320696 ?      Ssl  Mar23 120:30 /usr/bin/gnome-shell
-u2532985 1294147  2.6  2.8 34798020 467452 ?     SLl  Mar25  46:24 /opt/google/chrome/chrome
+u2532985 2144742 54.9  6.1 1267137020 984540 ?   Sl   14:33  39:06 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=1294155 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=805 --time-ticks-at-unix-epoch=-1742742718394684 --launch-time-ticks=200513618194 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15156394743316873156,8655982237683995863,262144 --disable-features=EyeDropper --variations-seed-version=20250324-050123.534000
+u2532985 1294192  5.2  1.6 34734224 270844 ?     Sl   Mar25  94:06 /opt/google/chrome/chrome --type=gpu-process --string-annotations --crashpad-handler-pid=1294155 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,15156394743316873156,8655982237683995863,262144 --disable-features=EyeDropper --variations-seed-version=20250324-050123.534000
+u2532985 1938776  4.2  7.0 1219133012 1140888 ?  Sl   09:32  15:43 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=1294155 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=611 --time-ticks-at-unix-epoch=-1742742718394684 --launch-time-ticks=182440517198 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15156394743316873156,8655982237683995863,262144 --disable-features=EyeDropper --variations-seed-version=20250324-050123.534000
+u2532985    2638  2.6  1.9 6144220 321080 ?      Ssl  Mar23 120:54 /usr/bin/gnome-shell
+u2532985 1294147  2.6  2.9 34802392 472576 ?     SLl  Mar25  46:43 /opt/google/chrome/chrome
 
 Top 5 Processes by Memory Usage:
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
-u2532985 1938776  4.3  7.0 1219132884 1130176 ?  Sl   09:32  15:33 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=1294155 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=611 --time-ticks-at-unix-epoch=-1742742718394684 --launch-time-ticks=182440517198 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15156394743316873156,8655982237683995863,262144 --disable-features=EyeDropper --variations-seed-version=20250324-050123.534000
-u2532985 2144742 59.2  6.1 1267136892 983904 ?   Sl   14:33  33:16 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=1294155 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=805 --time-ticks-at-unix-epoch=-1742742718394684 --launch-time-ticks=200513618194 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15156394743316873156,8655982237683995863,262144 --disable-features=EyeDropper --variations-seed-version=20250324-050123.534000
-u2532985 1344741  2.1  4.4 1217332764 714652 ?   Sl   Mar25  37:25 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=1294155 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=94 --time-ticks-at-unix-epoch=-1742742718394684 --launch-time-ticks=137434247322 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15156394743316873156,8655982237683995863,262144 --disable-features=EyeDropper --variations-seed-version=20250324-050123.534000
+u2532985 1938776  4.2  7.0 1219133012 1140888 ?  Sl   09:32  15:43 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=1294155 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=611 --time-ticks-at-unix-epoch=-1742742718394684 --launch-time-ticks=182440517198 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15156394743316873156,8655982237683995863,262144 --disable-features=EyeDropper --variations-seed-version=20250324-050123.534000
+u2532985 2144742 54.9  6.1 1267137020 984540 ?   Sl   14:33  39:06 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=1294155 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=805 --time-ticks-at-unix-epoch=-1742742718394684 --launch-time-ticks=200513618194 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15156394743316873156,8655982237683995863,262144 --disable-features=EyeDropper --variations-seed-version=20250324-050123.534000
+u2532985 1344741  2.2  4.8 1220748488 780704 ?   Sl   Mar25  38:45 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=1294155 --enable-crash-reporter=be95a1fa-1b4b-4e8b-b436-06c75174e1d0, --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=94 --time-ticks-at-unix-epoch=-1742742718394684 --launch-time-ticks=137434247322 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15156394743316873156,8655982237683995863,262144 --disable-features=EyeDropper --variations-seed-version=20250324-050123.534000
 u2532985 1863741  0.0  3.3 1215815456 546136 ?   Sl   Mar25   0:49 /usr/share/code/code /home/u2532985/.vscode/extensions/ms-python.vscode-pylance-2025.3.2/dist/server.bundle.js --cancellationReceive=file:842dda65b4e094ec26d01d87c43b62ba53fb615ba3 --node-ipc --clientProcessId=1863449
-u2532985 1294147  2.6  2.8 34798020 467452 ?     SLl  Mar25  46:24 /opt/google/chrome/chrome
+u2532985 1294147  2.6  2.9 34802392 472576 ?     SLl  Mar25  46:43 /opt/google/chrome/chrome
 
 ==================================
 
