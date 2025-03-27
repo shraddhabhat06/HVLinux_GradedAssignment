@@ -72,28 +72,13 @@ git commit -m "Auto-update logs: $(date)"
 git push origin $BRANCH
 
 ```
-3. **Create a bash script (git_log_push.sh) for pushing the logs to github repo.**
-```bash
-#!/bin/bash
 
-REPO_DIR="$(pwd)"
-LOG_DIR="$REPO_DIR/system_monitor_log"
-cd "$REPO_DIR"
-
-# Run system monitoring script.
-./system_monitor.sh
-
-# Push the latest log to github repo.
-git add .
-git commit -m "Add system monitoring logs"
-git push origin main
-```
 
 4. **Create a cron job for consistently tracking for effective capacity planning.**
 ```bash
 # Add a cron job to push the logs every 30 minutes:
 sudo crontab -e
-*/30 * * * * /home/tanujbhatia/linux_assignment_HeroVired/git_log_push.sh
+
 ```
 ---
 
@@ -243,9 +228,4 @@ sudo crontab -e -u mike
 # List backup files
 sudo ls -lh $(pwd)/backups/
 
-# Verify the contents of the backup
-tar -tf /backups/apache_backup_YYYY-MM-DD.tar.gz
-tar -tf /backups/nginx_backup_YYYY-MM-DD.tar.gz
-```
----
->>>>>>> 851f533 (Added additional files)
+
